@@ -1,8 +1,8 @@
-numeros.dat : numeros.x
-	./numeros.x > numeros.dat
+clase25.dat : clase25.x
+	./clase25.x
 
 numeros.x : numeros.cpp
-	c++ numeros.cpp -o numeros.x
+	c++ clase25.cpp -o clase25.x
 	
 clean : 
-	rm numeros.x numeros.dat
+	rm clase25.x clase25.dat
